@@ -1,0 +1,50 @@
+{
+  "resources": [
+    {
+      "id": 1,
+      "title": "The Transmission of Monetery Policy",
+      "url": "/education/resources/monetary-policy/implement-monetary-policy/",
+      "description": "Describes how changes made by the Reserve Bank to the cash rate – the ‘instrument’ of monetary policy – flow through to economic activity and inflation.",
+      "thumbnail_url": "http://www.rba.gov.au/education/images/thumbnail_explainers_the-transmission-of-monetary-policy.png",
+      "thumbnail_alt": "Explainer: The Transmission of Monetary Policy",
+      "topics": ["monetary policy", "cash rate"],
+      "audience": ["7-10", "11-12", "tertiary"]
+    },
+    {
+      "id": 2,
+      "title": "How the Reserve Bank Implements Monetary Policy",
+      "url": "/education/resources/monetary-policy/implement-monetary-policy/",
+      "description": "Describes the Australian cash market and explains how the Reserve Bank ensures that the cash rate is as close as possible to its target.",
+      "thumbnail_url": "https://www.rba.gov.au/education/images/thumbnail_explainers_how-the-reserve-bank-implements-monetary-policy.png",
+      "thumbnail_alt": "Explainer: How the Reserve Bank Implements Monetary Policy",
+      "topics": ["monetary policy", "cash rate"],
+      "audience": ["tertiary"]
+    },
+    {
+      "id": 3,
+      "title": "Role of the Reserve Bank",
+      "url": "https://www.rba.gov.au/education/topics/role-of-the-reserve-bank.html",
+      "description": "The Reserve Bank of Australia is Australia's central bank. Its duty is to contribute to the stability of the currency, full employment, and the economic prosperity and welfare of the Australian people. ",
+      "topics": ["monetary policy", "role"],
+      "audience": ["7-10", "11-12", "tertiary"]
+    },
+    {
+      "id": 4,
+      "title": "Domestic Market Operations",
+      "url": "https://www.rba.gov.au/education/topics/domestic-market-operations.html",
+      "description": "As part of its responsibility for monetary policy, the Reserve Bank Board sets a target for the cash rate. This is the rate at which banks borrow from and lend to each other on an overnight, unsecured basis.",
+      "topics": ["monetary policy", "cash rate"],
+      "audience": ["tertiary"]
+    },
+    {
+      "id": 5,
+      "title": "What is Economics?",
+      "url": "https://www.rba.gov.au/education/resources/economics/",
+      "thumbnail_url": "http://www.rba.gov.au/education/images/economics-poster.png",
+      "thumbnail_alt": "Poster: Economics is about explaining, applying, creating, investigating, influencing and informing.",
+      "description": "Economics is commonly described as the study of how societies allocate limited resources to meet their needs and wants. It is about people making choices under conditions of scarcity and uncertainty. It is present in much of what we hear about and do in our daily lives.",
+      "topics": ["monetary policy", "cash rate"],
+      "audience": ["tertiary"]
+    }
+  ]
+}
