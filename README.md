@@ -1,3 +1,5 @@
+[WIP] ReactJS version of the Education section of the main RBA site, with new functionality
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
