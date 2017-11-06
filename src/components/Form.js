@@ -1,16 +1,21 @@
 import React from 'react';
 
-const Form = () => {
+const Form = (props) => {
     return(
-        <form>
+        <form id="quicksearch" className="no-js-hidden form-quicksearch">
             <div className="container">
-                <label htmlFor="form-header-search-q" className="hidden">Search RBA website</label>
-                <input type="text" name="search" placeholder="Search Resources"/>
-                <button type="submit" name="btnG" className="submit">Search</button>
+                <span className="form-label-col">
+                    <label htmlFor="form-header-search-q" className="hidden">Search Educational Resources</label>
+                </span>
+                <span className="form-field-col">
+                    <input onChange={props.search} type="text" name="search" placeholder="Search for educational resources"/>
+                </span>
             </div>
 
             <select>
-                <option>1</option>
+                {
+
+                }
             </select>
         </form>
     )

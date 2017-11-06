@@ -2,7 +2,6 @@ import React from 'react';
 import Resource from './Resource';
 
 const ResourcesList = (props) => {
-    console.log(props.resources);
     return(
             <div id="content" className="column-content content-style">
                 <section>

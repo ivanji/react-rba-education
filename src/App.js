@@ -18,16 +18,21 @@ class App extends React.Component {
         super(props);
         this.state = {
             resources: []
-        }
+        };
+        this.searchResources = this.searchResources.bind(this);
     }
 
-
+    searchResources(event) {
+        event.preventDefault();
+        let value = event.target.value;
+        this.props.filterActions.searchResources(value);
+    }
 
     render() {
         return(
             <div className="page-width page-with-nav page-layout">
                 <Leftnav/>
-                <Form />
+                <Form search={this.searchResources} />
                 {this.props.resources.length > 0 ?
                     <ResourcesList resources={this.props.resources}/> :
                     <NoResults />
@@ -39,12 +44,14 @@ class App extends React.Component {
 
 function mapStateToProps(state) {
     return {
-        resources: state.resourceReducer.resources
+        resources: state.resourceReducer.filteredResources,
+        topics: state.resourceReducer.topicList
     }
 
 }
 
 function mapDispatchToProps(dispatch) {
+
     return {
         filterActions: bindActionCreators(resourcesActions, dispatch)
     }
