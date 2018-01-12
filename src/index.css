@@ -1,59 +1,60 @@
 body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
 }
 
 .bar-colourful {
-  content          : '';
-  width            : 100%;
-  background-color : #63b4b4;
-  height           : 30px;
+    content: '';
+    width: 100%;
+    background-color: #63b4b4;
+    height: 30px;
 }
 
 .bar-colourful:before {
-  content          : '';
-  width            : 30%;
-  background-color : #5e7ebd;
-  height           : 30px;
-  float            : left;
+    content: '';
+    width: 30%;
+    background-color: #5e7ebd;
+    height: 30px;
+    float: left;
 }
 
 .bar-colourful:after {
-  content          : '';
-  width            : 60%;
-  background-color : #c7d65b;
-  float            : right;
-  height           : 30px;
+    content: '';
+    width: 60%;
+    background-color: #c7d65b;
+    float: right;
+    height: 30px;
 }
 
 #wrapper-nutshell {
-  background-color : #2a6b80;
-  width            : 60%;
+    background-color: #2a6b80;
+    width: 60%;
 }
 
 .wrapper-concept {
-  background-color : #5a879b;
-  color            : #FFF;
-  width            : 60%;
-  clear            : both;
-  margin-bottom    : 0.5em;
+    background-color: #5a879b;
+    color: #FFF;
+    width: 60%;
+    clear: both;
+    margin-bottom: 0.5em;
 }
 
 .wrapper-concept-left {
+    float:left;
 }
 
 .wrapper-concept-left img {
-  float : right;
+    float: right;
 }
 
 .wrapper-concept-right {
 }
 
 .wrapper-concept-right img {
-  float : left;
+    float: left;
 }
 
 .wrapper-concept img {
-  border-radius : 50%;
+    border-radius: 50%;
 }
